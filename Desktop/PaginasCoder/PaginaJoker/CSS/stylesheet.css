@@ -1610,6 +1610,49 @@ header {
     border-radius: 15px;
 }
 
+/* GALERIA NUEVA */
+
+.galerianueva {
+    padding: 50px;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.card {
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    padding: 10px;
+    width: 14rem;
+    height:12rem ;
+}
+
+.card h5 {
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE */
 @media screen and (min-width:170px) and (max-width:576px) {
 

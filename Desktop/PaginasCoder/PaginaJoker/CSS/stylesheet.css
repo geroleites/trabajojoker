@@ -78,8 +78,7 @@ header {
 
 
 .item-cajaeventos {
- 
-    height: 425px;
+    height: 450px;
     padding: 10px;
     border-radius: 8px;
     cursor: pointer;
@@ -87,8 +86,6 @@ header {
 
  
 }
-
-
 
 .item-cajaeventos h2 {
     padding-bottom: 20px;
@@ -123,7 +120,7 @@ header {
 
 .carousel-inner {
     padding: 20px;
-    height: 300px;
+    height: auto;
 }
 
 
@@ -1623,12 +1620,15 @@ header {
 .card {
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: center;align-items: center;
 }
 
 .card img {
     padding: 10px;
     width: 14rem;
     height:12rem ;
+    position: relative;
 }
 
 .card h5 {
